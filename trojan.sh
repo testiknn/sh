@@ -3,10 +3,11 @@
 #主目录
 dirtmp=/tmp/trojan
 #配置
-diretc=/etc/storage
+diretc=/etc/storage/trojan
 
 ##################################
 [ ! -d $dirtmp ] && mkdir -p $dirtmp
+[ ! -d $diretc ] && mkdir -p $diretc
 cd $dirtmp
 
 trojan_user () {
